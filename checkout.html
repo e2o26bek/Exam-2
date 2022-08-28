@@ -1,0 +1,300 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MAIN PAGE</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/checkout.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css">
+</head>
+
+<body>
+    <div class="main--wrapper">
+        <div class="hero-part">
+
+            <!-- HEADER PART -->
+            <header class="flex">
+
+                <!-- NAVBAR -->
+                <div class="container">
+                    <nav class="site-nav flex">
+                        <div class="site-nav--logo-part flex">
+                            <label for="bars" class="fa-solid fa-bars"></label>
+                            <a href="#" class="site-logo">
+                                <img src="img/logo.png" alt="">
+                            </a>
+                        </div>
+                        <div class="nav__links--desktop flex">
+                            <a href="#" class="nav__links--item">HOME</a>
+                            <a href="headphones.html" class="nav__links--item">HEADPHONES</a>
+                            <a href="speakers.html" class="nav__links--item">SPEAKERS</a>
+                            <a href="earphones.html" class="nav__links--item">EARPHONES</a>
+                        </div>
+                        <a href="#products" class="site-nav__shop--icon">
+                            <img src="img/shop-icon.svg" alt="">
+                        </a>
+                    </nav>
+                </div>
+            </header>
+            <!-- BARS MENU -->
+            <input type="checkbox" name="" id="bars">
+            <div class="bars-menu">
+                <div class="container">
+                    <div class="bars-menu__content">
+                        <div class="bars-menu__cards--div flex">
+                            <!-- bars menu card 1 -->
+                            <div class="bars-menu__card bars-menu__card1 flex">
+                                <div class="img--shadow flex">
+                                    <img src="img/headphone-gold.svg" alt="">
+                                    <img src="img/oval--shadow.svg" class="shadow" alt="">
+                                </div>
+                                <h3 class="bars-menu__card--header">HEADPHONES</h3>
+                                <a href="headphones.html" class="bars-menu__card-anker flex">
+                                    <p class="bars-menu__anker--text">Shop</p>
+                                    <i class="fa-solid fa-angle-right"></i>
+                                </a>
+                            </div>
+
+                            <!-- bars menu card 2 -->
+                            <div class="bars-menu__card flex">
+                                <div class="img--shadow flex">
+                                    <img src="img/speaker1.svg" alt="">
+                                    <img src="img/oval--shadow.svg" class="shadow" alt="">
+                                </div>
+                                <h3 class="bars-menu__card--header">SPEAKERS</h3>
+                                <a href="speakers.html" class="bars-menu__card-anker flex">
+                                    <p class="bars-menu__anker--text">Shop</p>
+                                    <i class="fa-solid fa-angle-right"></i>
+                                </a>
+                            </div>
+
+                            <!-- bars menu card 3 -->
+                            <div class="bars-menu__card flex">
+                                <div class="img--shadow flex">
+                                    <img src="img/earphone.svg" alt="">
+                                    <img src="img/oval--shadow.svg" class="shadow" alt="">
+                                </div>
+                                <h3 class="bars-menu__card--header">EARPHONES</h3>
+                                <a href="earphones.html" class="bars-menu__card-anker flex">
+                                    <p class="bars-menu__anker--text">Shop</p>
+                                    <i class="fa-solid fa-angle-right"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+
+
+
+            <main>
+                <form action="">
+                    <div class="container">
+                        <a href="index.html" class="grey-header--text">Go Back</a>
+                        <section id="checkout__section">
+
+                            <!-- CHECKOUT PART -->
+                            <div class="checkout-part">
+                                <h2 class="header-text">CHECKOUT</h2>
+
+                                <!-- BILLING PART -->
+                                <h3 class="orange-header-text">Billing details</h3>
+                                <div class="checkout-part__form--billing">
+                                    <div class="input--div">
+                                        <label class="db" for="name">Name</label>
+                                        <input type="text" name="Name" id="name" placeholder="Alexei Ward">
+                                    </div>
+                                    <div class="input--div">
+                                        <label class="db" for="mail">Email Address</label>
+                                        <input type="email" name="e-mail" id="mail" placeholder="alexei@mail.com"
+                                            required>
+                                    </div>
+                                    <div class="input--div">
+                                        <label class="db" for="phone">Phone Number</label>
+                                        <input type="number" name="phone" id="phone" placeholder="+1 202-555-0136">
+                                    </div>
+                                </div>
+
+                                <!-- SHIPPING PART -->
+                                <h3 class="orange-header-text">shipping info</h3>
+                                <div class="checkout-part__form--shipping">
+                                    <div class="input--div w100">
+                                        <label class="db" for="Address">Your Address</label>
+                                        <input type="text" name="address" id="Address"
+                                            placeholder="1137 Williams Avenue">
+                                    </div>
+                                    <div class="input--div">
+                                        <label class="db" for="zip">ZIP Code</label>
+                                        <input type="number" name="zip-code" id="zip" placeholder="10001">
+                                    </div>
+                                    <div class="input--div">
+                                        <label class="db" for="City">City</label>
+                                        <input type="text" name="city" id="City" placeholder="New York">
+                                    </div>
+                                    <div class="input--div">
+                                        <label class="db" for="country">Country</label>
+                                        <input type="text" name="country" id="country" placeholder="United States">
+                                    </div>
+                                </div>
+
+
+                                <!-- PAYMENT PART -->
+                                <h3 class="orange-header-text">payment details</h3>
+                                <div class="checkout-part__form--payment">
+                                    <div class="input--div df">
+                                        <h3 for="" class="db">Payment Method</h3>
+
+                                        <div class="radio-buttons">
+                                            <label for="e-money" class="db radio">
+                                                <input type="radio" name="e-money" id="e-money" class="radio-input">
+                                                <div class="radio__circle">
+                                                    <div class="radio__circle--inner">
+                                                    </div>
+                                                </div>
+                                                e-Money
+                                            </label>
+                                            <label for="cash" class="db radio">
+                                                <input type="radio" name="cash" id="cash" class="radio-input">
+                                                <div class="radio__circle">
+                                                    <div class="radio__circle--inner">
+                                                    </div>
+                                                </div>
+                                                Cash on Delivery
+                                            </label>
+                                        </div>
+                                    </div>
+
+                                    <div class="payment__contacts--inputs">
+                                        <div class="input--div">
+                                            <label class="db" for="e-number">e-Money Number</label>
+                                            <input type="number" name="e-number" id="e-number" placeholder="238521993">
+                                        </div>
+                                        <div class="input--div">
+                                            <label class="db" for="pin">e-Money PIN</label>
+                                            <input type="number" name="pin" id="pin" placeholder="6891">
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+
+
+                            <!-- SUMMARY PART -->
+                            <div class="summary__part">
+                                <h2 class="summary__header--text">summary</h2>
+
+                                <div class="products__part">
+                                    <div class="product__card">
+                                        <img src="img/product1.svg" alt="">
+                                        <div class="product--info">
+                                            <div class="product__info--part1">
+                                                <p class="product-name">XX99 MK II </p>
+                                                <p class="price--text">$ 2,999</p>
+                                            </div>
+                                            <p class="product-number">x1</p>
+                                        </div>
+                                    </div>
+                                    <div class="product__card">
+                                        <img src="img/product2.svg" alt="">
+                                        <div class="product--info">
+                                            <div class="product__info--part1">
+                                                <p class="product-name">XX59</p>
+                                                <p class="price--text">$ 899</p>
+                                            </div>
+                                            <p class="product-number">x2</p>
+                                        </div>
+                                    </div>
+                                    <div class="product__card">
+                                        <img src="img/product3.svg" alt="">
+                                        <div class="product--info">
+                                            <div class="product__info--part1">
+                                                <p class="product-name">YX1</p>
+                                                <p class="price--text">$ 599</p>
+                                            </div>
+                                            <p class="product-number">x1</p>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="price__part">
+                                    <div class="price__row">
+                                        <p class="price__category">TOTAL</p>
+                                        <p class="price">$ 5,396</p>
+                                    </div>
+                                    <div class="price__row">
+                                        <p class="price__category">SHIPPING</p>
+                                        <p class="price">$ 50</p>
+                                    </div>
+                                    <div class="price__row mb24">
+                                        <p class="price__category">VAT (INCLUDED)</p>
+                                        <p class="price">$ 1,079</p>
+                                    </div>
+                                    <div class="price__row">
+                                        <p class="price__category">GRAND TOTAL</p>
+                                        <p class="price orange">$ 5,446</p>
+                                    </div>
+                                </div>
+
+                                <button type="submit" class="pay-btn">CONTINUE & PAY</button>
+                            </div>
+                        </section>
+                    </div>
+                </form>
+            </main>
+
+
+
+
+
+
+            <!-- FOOTER -->
+            <footer>
+                <div class="container">
+                    <div class="footer__content">
+                        <div class="footer__line"></div>
+                        <div class="footer__part1">
+                            <a href="#"><img src="img/logo.png" alt=""></a>
+                            <div class="footer__links">
+                                <a href="#" class="nav__links--item">HOME</a>
+                                <a href="headphones.html" class="nav__links--item">HEADPHONES</a>
+                                <a href="speakers.html" class="nav__links--item">SPEAKERS</a>
+                                <a href="earphones.html" class="nav__links--item">EARPHONES</a>
+                            </div>
+                        </div>
+                        <div class="footer__part2">
+                            <p class="greytext text-center text-start-tablet w540">Audiophile is an all in one stop to
+                                fulfill
+                                your audio needs.
+                                We're a small team of music lovers and sound specialists who are devoted to helping you
+                                get
+                                the most out of personal audio. Come and visit our demo facility - we’re open 7 days a
+                                week.
+                            </p>
+                            <div class="footer__icons--list block-desktop">
+                                <a class="fa-brands fa-square-facebook" href="https://www.facebook.com/"></a>
+                                <a class="fa-brands fa-twitter" href="https://www.twitter.com/"></a>
+                                <a class="fa-brands fa-instagram" href="https://www.instagram.com/"></a>
+                            </div>
+                        </div>
+                        <div class="footer__part3">
+                            <p class="greytext">Copyright 2021. All Rights Reserved</p>
+                            <div class="footer__icons--list none-desktop">
+                                <a class="fa-brands fa-square-facebook" href="https://www.facebook.com/"></a>
+                                <a class="fa-brands fa-twitter" href="https://www.twitter.com/"></a>
+                                <a class="fa-brands fa-instagram" href="https://www.instagram.com/"></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </footer>
+        </div>
+</body>
+
+</html>

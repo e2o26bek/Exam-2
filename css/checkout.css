@@ -2102,6 +2102,7 @@ body {
         letter-spacing: -0.25px;
         color: #000000;
         border: 1px solid #CFCFCF;
+        outline-color: var(--orange-color);
     }
 
     input::after {
